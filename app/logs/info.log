@@ -1,0 +1,28 @@
+[2022-04-14 04:57:05,683] 172.18.0.1 requested http://localhost/
+INFO in __init__: this is the plain message
+[2022-04-14 04:57:08,601] 172.18.0.1 requested http://localhost/welcome
+INFO in __init__: this is the plain message
+[2022-04-14 04:57:09,312] 172.18.0.1 requested http://localhost/about
+INFO in __init__: this is the plain message
+[2022-04-14 04:57:09,855] 172.18.0.1 requested http://localhost/dashboard
+INFO in __init__: this is the plain message
+[2022-04-14 04:57:21,167] 172.18.0.1 requested http://localhost/profile
+INFO in __init__: this is the plain message
+[2022-04-14 04:57:24,247] 172.18.0.1 requested http://localhost/account
+INFO in __init__: this is the plain message
+[2022-04-14 04:57:26,138] 172.18.0.1 requested http://localhost/dashboard
+INFO in __init__: this is the plain message
+[2022-04-14 05:00:32,144] 172.19.0.1 requested http://localhost/dashboard
+INFO in __init__: this is the plain message
+[2022-04-14 05:00:32,863] 172.19.0.1 requested http://localhost/dashboard
+INFO in __init__: this is the plain message
+[2022-04-14 05:00:34,195] 172.19.0.1 requested http://localhost/about
+INFO in __init__: this is the plain message
+[2022-04-14 05:00:34,858] 172.19.0.1 requested http://localhost/welcome
+INFO in __init__: this is the plain message
+[2022-04-14 05:02:19,148] 172.19.0.1 requested http://localhost/dashboard
+INFO in __init__: this is the plain message
+[2022-04-14 05:02:22,128] 172.19.0.1 requested http://localhost/logout
+INFO in __init__: this is the plain message
+[2022-04-14 05:02:22,143] 172.19.0.1 requested http://localhost/login
+INFO in __init__: this is the plain message
