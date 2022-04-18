@@ -13,7 +13,7 @@ from flask_wtf.csrf import CSRFProtect
 
 from app.auth import auth
 from app.auth import auth
-from app.cli import create_database
+from app.cli import create_database,create_log_folder
 from app.context_processors import utility_text_processors
 from app.db import db
 from app.db.models import User
@@ -21,6 +21,7 @@ from app.exceptions import http_exceptions
 from app.simple_pages import simple_pages
 import logging
 from flask.logging import default_handler
+from app.log_formatters import RequestFormatter
 
 login_manager = flask_login.LoginManager()
 
@@ -49,6 +50,8 @@ def create_app():
     db.init_app(app)
     # add command function to cli commands
     app.cli.add_command(create_database)
+    app.cli.add_command(create_log_folder)
+
 
     # Deactivate the default flask logger so that log messages don't get duplicated
     app.logger.removeHandler(default_handler)
@@ -66,9 +69,7 @@ def create_app():
     handler = logging.FileHandler(log_file)
     # Create a log file formatter object to create the entry in the log
     formatter = RequestFormatter(
-        '[%(asctime)s] %(remote_addr)s requested %(url)s\n'
-        '%(levelname)s in %(module)s: %(message)s'
-    )
+        '%(levelname)s,%(asctime)s,%(module)s,%(message)s,%(remote_addr)s,%(url)s,%(request_path)s,%(ip)s,%(host)s,%(args)s')
     # set the formatter for the log entry
     handler.setFormatter(formatter)
     # Set the logging level of the file handler object so that it logs INFO and up

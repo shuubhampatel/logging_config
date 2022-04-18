@@ -1,28 +1,98 @@
-[2022-04-14 04:57:05,683] 172.18.0.1 requested http://localhost/
-INFO in __init__: this is the plain message
-[2022-04-14 04:57:08,601] 172.18.0.1 requested http://localhost/welcome
-INFO in __init__: this is the plain message
-[2022-04-14 04:57:09,312] 172.18.0.1 requested http://localhost/about
-INFO in __init__: this is the plain message
-[2022-04-14 04:57:09,855] 172.18.0.1 requested http://localhost/dashboard
-INFO in __init__: this is the plain message
-[2022-04-14 04:57:21,167] 172.18.0.1 requested http://localhost/profile
-INFO in __init__: this is the plain message
-[2022-04-14 04:57:24,247] 172.18.0.1 requested http://localhost/account
-INFO in __init__: this is the plain message
-[2022-04-14 04:57:26,138] 172.18.0.1 requested http://localhost/dashboard
-INFO in __init__: this is the plain message
-[2022-04-14 05:00:32,144] 172.19.0.1 requested http://localhost/dashboard
-INFO in __init__: this is the plain message
-[2022-04-14 05:00:32,863] 172.19.0.1 requested http://localhost/dashboard
-INFO in __init__: this is the plain message
-[2022-04-14 05:00:34,195] 172.19.0.1 requested http://localhost/about
-INFO in __init__: this is the plain message
-[2022-04-14 05:00:34,858] 172.19.0.1 requested http://localhost/welcome
-INFO in __init__: this is the plain message
-[2022-04-14 05:02:19,148] 172.19.0.1 requested http://localhost/dashboard
-INFO in __init__: this is the plain message
-[2022-04-14 05:02:22,128] 172.19.0.1 requested http://localhost/logout
-INFO in __init__: this is the plain message
-[2022-04-14 05:02:22,143] 172.19.0.1 requested http://localhost/login
-INFO in __init__: this is the plain message
+INFO,2022-04-18 02:24:13,050,__init__,none,127.0.0.1,http://localhost/,/,127.0.0.1,localhost,{}
+INFO,2022-04-18 02:24:13,059,__init__,none,127.0.0.1,http://localhost/dashboard,/dashboard,127.0.0.1,localhost,{}
+INFO,2022-04-18 02:24:13,059,__init__,none,127.0.0.1,http://localhost/dashboard,/dashboard,127.0.0.1,localhost,{}
+INFO,2022-04-18 02:24:13,124,__init__,none,127.0.0.1,http://localhost/register,/register,127.0.0.1,localhost,{}
+INFO,2022-04-18 02:24:13,124,__init__,none,127.0.0.1,http://localhost/register,/register,127.0.0.1,localhost,{}
+INFO,2022-04-18 02:24:13,138,__init__,none,127.0.0.1,http://localhost/login,/login,127.0.0.1,localhost,{}
+INFO,2022-04-18 02:24:13,138,__init__,none,127.0.0.1,http://localhost/login,/login,127.0.0.1,localhost,{}
+INFO,2022-04-18 02:24:13,206,__init__,none,127.0.0.1,http://localhost/,/,127.0.0.1,localhost,{}
+INFO,2022-04-18 02:24:13,206,__init__,none,127.0.0.1,http://localhost/,/,127.0.0.1,localhost,{}
+INFO,2022-04-18 02:24:13,206,__init__,none,127.0.0.1,http://localhost/,/,127.0.0.1,localhost,{}
+INFO,2022-04-18 02:24:13,275,__init__,none,127.0.0.1,http://localhost/,/,127.0.0.1,localhost,{}
+INFO,2022-04-18 02:24:13,275,__init__,none,127.0.0.1,http://localhost/,/,127.0.0.1,localhost,{}
+INFO,2022-04-18 02:24:13,275,__init__,none,127.0.0.1,http://localhost/,/,127.0.0.1,localhost,{}
+INFO,2022-04-18 02:24:13,275,__init__,none,127.0.0.1,http://localhost/,/,127.0.0.1,localhost,{}
+INFO,2022-04-18 02:24:13,341,__init__,none,127.0.0.1,http://localhost/,/,127.0.0.1,localhost,{}
+INFO,2022-04-18 02:24:13,341,__init__,none,127.0.0.1,http://localhost/,/,127.0.0.1,localhost,{}
+INFO,2022-04-18 02:24:13,341,__init__,none,127.0.0.1,http://localhost/,/,127.0.0.1,localhost,{}
+INFO,2022-04-18 02:24:13,341,__init__,none,127.0.0.1,http://localhost/,/,127.0.0.1,localhost,{}
+INFO,2022-04-18 02:24:13,341,__init__,none,127.0.0.1,http://localhost/,/,127.0.0.1,localhost,{}
+INFO,2022-04-18 02:24:13,413,__init__,none,127.0.0.1,http://localhost/,/,127.0.0.1,localhost,{}
+INFO,2022-04-18 02:24:13,413,__init__,none,127.0.0.1,http://localhost/,/,127.0.0.1,localhost,{}
+INFO,2022-04-18 02:24:13,413,__init__,none,127.0.0.1,http://localhost/,/,127.0.0.1,localhost,{}
+INFO,2022-04-18 02:24:13,413,__init__,none,127.0.0.1,http://localhost/,/,127.0.0.1,localhost,{}
+INFO,2022-04-18 02:24:13,413,__init__,none,127.0.0.1,http://localhost/,/,127.0.0.1,localhost,{}
+INFO,2022-04-18 02:24:13,413,__init__,none,127.0.0.1,http://localhost/,/,127.0.0.1,localhost,{}
+INFO,2022-04-18 02:24:13,486,__init__,none,127.0.0.1,http://localhost/about,/about,127.0.0.1,localhost,{}
+INFO,2022-04-18 02:24:13,486,__init__,none,127.0.0.1,http://localhost/about,/about,127.0.0.1,localhost,{}
+INFO,2022-04-18 02:24:13,486,__init__,none,127.0.0.1,http://localhost/about,/about,127.0.0.1,localhost,{}
+INFO,2022-04-18 02:24:13,486,__init__,none,127.0.0.1,http://localhost/about,/about,127.0.0.1,localhost,{}
+INFO,2022-04-18 02:24:13,486,__init__,none,127.0.0.1,http://localhost/about,/about,127.0.0.1,localhost,{}
+INFO,2022-04-18 02:24:13,486,__init__,none,127.0.0.1,http://localhost/about,/about,127.0.0.1,localhost,{}
+INFO,2022-04-18 02:24:13,486,__init__,none,127.0.0.1,http://localhost/about,/about,127.0.0.1,localhost,{}
+INFO,2022-04-18 02:24:13,563,__init__,none,127.0.0.1,http://localhost/welcome,/welcome,127.0.0.1,localhost,{}
+INFO,2022-04-18 02:24:13,563,__init__,none,127.0.0.1,http://localhost/welcome,/welcome,127.0.0.1,localhost,{}
+INFO,2022-04-18 02:24:13,563,__init__,none,127.0.0.1,http://localhost/welcome,/welcome,127.0.0.1,localhost,{}
+INFO,2022-04-18 02:24:13,563,__init__,none,127.0.0.1,http://localhost/welcome,/welcome,127.0.0.1,localhost,{}
+INFO,2022-04-18 02:24:13,563,__init__,none,127.0.0.1,http://localhost/welcome,/welcome,127.0.0.1,localhost,{}
+INFO,2022-04-18 02:24:13,563,__init__,none,127.0.0.1,http://localhost/welcome,/welcome,127.0.0.1,localhost,{}
+INFO,2022-04-18 02:24:13,563,__init__,none,127.0.0.1,http://localhost/welcome,/welcome,127.0.0.1,localhost,{}
+INFO,2022-04-18 02:24:13,563,__init__,none,127.0.0.1,http://localhost/welcome,/welcome,127.0.0.1,localhost,{}
+INFO,2022-04-18 02:24:13,641,__init__,none,127.0.0.1,http://localhost/page5,/page5,127.0.0.1,localhost,{}
+INFO,2022-04-18 02:24:13,641,__init__,none,127.0.0.1,http://localhost/page5,/page5,127.0.0.1,localhost,{}
+INFO,2022-04-18 02:24:13,641,__init__,none,127.0.0.1,http://localhost/page5,/page5,127.0.0.1,localhost,{}
+INFO,2022-04-18 02:24:13,641,__init__,none,127.0.0.1,http://localhost/page5,/page5,127.0.0.1,localhost,{}
+INFO,2022-04-18 02:24:13,641,__init__,none,127.0.0.1,http://localhost/page5,/page5,127.0.0.1,localhost,{}
+INFO,2022-04-18 02:24:13,641,__init__,none,127.0.0.1,http://localhost/page5,/page5,127.0.0.1,localhost,{}
+INFO,2022-04-18 02:24:13,641,__init__,none,127.0.0.1,http://localhost/page5,/page5,127.0.0.1,localhost,{}
+INFO,2022-04-18 02:24:13,641,__init__,none,127.0.0.1,http://localhost/page5,/page5,127.0.0.1,localhost,{}
+INFO,2022-04-18 02:24:13,641,__init__,none,127.0.0.1,http://localhost/page5,/page5,127.0.0.1,localhost,{}
+INFO,2022-04-18 02:24:22,633,__init__,none,127.0.0.1,http://localhost/,/,127.0.0.1,localhost,{}
+INFO,2022-04-18 02:24:22,642,__init__,none,127.0.0.1,http://localhost/dashboard,/dashboard,127.0.0.1,localhost,{}
+INFO,2022-04-18 02:24:22,642,__init__,none,127.0.0.1,http://localhost/dashboard,/dashboard,127.0.0.1,localhost,{}
+INFO,2022-04-18 02:24:22,703,__init__,none,127.0.0.1,http://localhost/register,/register,127.0.0.1,localhost,{}
+INFO,2022-04-18 02:24:22,703,__init__,none,127.0.0.1,http://localhost/register,/register,127.0.0.1,localhost,{}
+INFO,2022-04-18 02:24:22,711,__init__,none,127.0.0.1,http://localhost/login,/login,127.0.0.1,localhost,{}
+INFO,2022-04-18 02:24:22,711,__init__,none,127.0.0.1,http://localhost/login,/login,127.0.0.1,localhost,{}
+INFO,2022-04-18 02:24:22,782,__init__,none,127.0.0.1,http://localhost/,/,127.0.0.1,localhost,{}
+INFO,2022-04-18 02:24:22,782,__init__,none,127.0.0.1,http://localhost/,/,127.0.0.1,localhost,{}
+INFO,2022-04-18 02:24:22,782,__init__,none,127.0.0.1,http://localhost/,/,127.0.0.1,localhost,{}
+INFO,2022-04-18 02:24:22,848,__init__,none,127.0.0.1,http://localhost/,/,127.0.0.1,localhost,{}
+INFO,2022-04-18 02:24:22,848,__init__,none,127.0.0.1,http://localhost/,/,127.0.0.1,localhost,{}
+INFO,2022-04-18 02:24:22,848,__init__,none,127.0.0.1,http://localhost/,/,127.0.0.1,localhost,{}
+INFO,2022-04-18 02:24:22,848,__init__,none,127.0.0.1,http://localhost/,/,127.0.0.1,localhost,{}
+INFO,2022-04-18 02:24:22,919,__init__,none,127.0.0.1,http://localhost/,/,127.0.0.1,localhost,{}
+INFO,2022-04-18 02:24:22,919,__init__,none,127.0.0.1,http://localhost/,/,127.0.0.1,localhost,{}
+INFO,2022-04-18 02:24:22,919,__init__,none,127.0.0.1,http://localhost/,/,127.0.0.1,localhost,{}
+INFO,2022-04-18 02:24:22,919,__init__,none,127.0.0.1,http://localhost/,/,127.0.0.1,localhost,{}
+INFO,2022-04-18 02:24:22,919,__init__,none,127.0.0.1,http://localhost/,/,127.0.0.1,localhost,{}
+INFO,2022-04-18 02:24:22,987,__init__,none,127.0.0.1,http://localhost/,/,127.0.0.1,localhost,{}
+INFO,2022-04-18 02:24:22,987,__init__,none,127.0.0.1,http://localhost/,/,127.0.0.1,localhost,{}
+INFO,2022-04-18 02:24:22,987,__init__,none,127.0.0.1,http://localhost/,/,127.0.0.1,localhost,{}
+INFO,2022-04-18 02:24:22,987,__init__,none,127.0.0.1,http://localhost/,/,127.0.0.1,localhost,{}
+INFO,2022-04-18 02:24:22,987,__init__,none,127.0.0.1,http://localhost/,/,127.0.0.1,localhost,{}
+INFO,2022-04-18 02:24:22,987,__init__,none,127.0.0.1,http://localhost/,/,127.0.0.1,localhost,{}
+INFO,2022-04-18 02:24:23,057,__init__,none,127.0.0.1,http://localhost/about,/about,127.0.0.1,localhost,{}
+INFO,2022-04-18 02:24:23,057,__init__,none,127.0.0.1,http://localhost/about,/about,127.0.0.1,localhost,{}
+INFO,2022-04-18 02:24:23,057,__init__,none,127.0.0.1,http://localhost/about,/about,127.0.0.1,localhost,{}
+INFO,2022-04-18 02:24:23,057,__init__,none,127.0.0.1,http://localhost/about,/about,127.0.0.1,localhost,{}
+INFO,2022-04-18 02:24:23,057,__init__,none,127.0.0.1,http://localhost/about,/about,127.0.0.1,localhost,{}
+INFO,2022-04-18 02:24:23,057,__init__,none,127.0.0.1,http://localhost/about,/about,127.0.0.1,localhost,{}
+INFO,2022-04-18 02:24:23,057,__init__,none,127.0.0.1,http://localhost/about,/about,127.0.0.1,localhost,{}
+INFO,2022-04-18 02:24:23,128,__init__,none,127.0.0.1,http://localhost/welcome,/welcome,127.0.0.1,localhost,{}
+INFO,2022-04-18 02:24:23,128,__init__,none,127.0.0.1,http://localhost/welcome,/welcome,127.0.0.1,localhost,{}
+INFO,2022-04-18 02:24:23,128,__init__,none,127.0.0.1,http://localhost/welcome,/welcome,127.0.0.1,localhost,{}
+INFO,2022-04-18 02:24:23,128,__init__,none,127.0.0.1,http://localhost/welcome,/welcome,127.0.0.1,localhost,{}
+INFO,2022-04-18 02:24:23,128,__init__,none,127.0.0.1,http://localhost/welcome,/welcome,127.0.0.1,localhost,{}
+INFO,2022-04-18 02:24:23,128,__init__,none,127.0.0.1,http://localhost/welcome,/welcome,127.0.0.1,localhost,{}
+INFO,2022-04-18 02:24:23,128,__init__,none,127.0.0.1,http://localhost/welcome,/welcome,127.0.0.1,localhost,{}
+INFO,2022-04-18 02:24:23,128,__init__,none,127.0.0.1,http://localhost/welcome,/welcome,127.0.0.1,localhost,{}
+INFO,2022-04-18 02:24:23,204,__init__,none,127.0.0.1,http://localhost/page5,/page5,127.0.0.1,localhost,{}
+INFO,2022-04-18 02:24:23,204,__init__,none,127.0.0.1,http://localhost/page5,/page5,127.0.0.1,localhost,{}
+INFO,2022-04-18 02:24:23,204,__init__,none,127.0.0.1,http://localhost/page5,/page5,127.0.0.1,localhost,{}
+INFO,2022-04-18 02:24:23,204,__init__,none,127.0.0.1,http://localhost/page5,/page5,127.0.0.1,localhost,{}
+INFO,2022-04-18 02:24:23,204,__init__,none,127.0.0.1,http://localhost/page5,/page5,127.0.0.1,localhost,{}
+INFO,2022-04-18 02:24:23,204,__init__,none,127.0.0.1,http://localhost/page5,/page5,127.0.0.1,localhost,{}
+INFO,2022-04-18 02:24:23,204,__init__,none,127.0.0.1,http://localhost/page5,/page5,127.0.0.1,localhost,{}
+INFO,2022-04-18 02:24:23,204,__init__,none,127.0.0.1,http://localhost/page5,/page5,127.0.0.1,localhost,{}
+INFO,2022-04-18 02:24:23,204,__init__,none,127.0.0.1,http://localhost/page5,/page5,127.0.0.1,localhost,{}
