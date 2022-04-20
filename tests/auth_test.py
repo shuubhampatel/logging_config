@@ -1,7 +1,7 @@
 """This test the homepage"""
 
 
-def test_request_main_menu_links(client,make_log_folder):
+def test_request_main_menu_links(client, make_log_folder):
     """This makes the index page"""
     response = client.get("/")
     assert response.status_code == 200
@@ -9,7 +9,7 @@ def test_request_main_menu_links(client,make_log_folder):
     assert b'href="/register"' in response.data
 
 
-def test_auth_pages(client,make_log_folder):
+def test_auth_pages(client, make_log_folder):
     """This makes the index page"""
     response = client.get("/dashboard")
     assert response.status_code == 302
