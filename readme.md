@@ -2,12 +2,12 @@
 
 [![Production Workflow 1](https://github.com/shuubhampatel/logging_config/actions/workflows/prod.yml/badge.svg)](https://github.com/shuubhampatel/logging_config/actions/workflows/prod.yml)
 
-* [Production Deployment](https://dashboard.heroku.com/apps/flask-docker-project1-prod/)
+* [Production Deployment](https://flask-docker-project1-prod.herokuapp.com/)
 
 
 [![Development Workflow 3.8](https://github.com/shuubhampatel/logging_config/actions/workflows/dev.yml/badge.svg)](https://github.com/shuubhampatel/logging_config/actions/workflows/dev.yml)
 
-* [Developmental Deployment](https://dashboard.heroku.com/apps/flask-docker-project1-dev/)
+* [Developmental Deployment](https://flask-docker-project1-dev.herokuapp.com/)
 
 ## Setting up CI/CD
 

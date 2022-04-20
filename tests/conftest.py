@@ -2,13 +2,12 @@
 # pylint: disable=redefined-outer-name
 
 import pytest
-from app import create_app
+from app import create_app, create_log_folder
 
 
 @pytest.fixture()
 def application():
     """This makes the app"""
-
     application = create_app()
     application.config.update({
         "TESTING": True,
@@ -26,3 +25,8 @@ def client(application):
 def runner(application):
     """This makes the task runner"""
     return application.test_cli_runner()
+
+
+@pytest.fixture()
+def make_log_folder(runner):
+    runner.invoke(create_log_folder)
