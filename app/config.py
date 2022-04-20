@@ -2,6 +2,7 @@ import os
 
 from app import create_log_folder
 
+
 class Config(object):
     DEBUG = False
     TESTING = False

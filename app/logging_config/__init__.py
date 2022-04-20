@@ -57,7 +57,7 @@ LOGGING_CONFIG = {
                       '%(levelname)s in %(module)s: %(message)s'
         },
         'DebugFormatter': {
-            '()': 'app.logging_config.log_formatters.DebugFormatter',
+            '()': 'app.logging_config.log_formatters.RequestFormatter',
             'format': '%(levelname)s : %(message)s'
         }
     },
